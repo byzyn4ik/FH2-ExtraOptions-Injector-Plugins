@@ -1,0 +1,35 @@
+[
+  {
+    "id": "photo_camera_world_restrictions",
+    "runtime_group": "PHOTO_CAMERA",
+    "rva": 3766504,
+    "original": "0f8594000000",
+    "accepted": [
+      "0f8594000000",
+      "e99500000090"
+    ],
+    "patched": "e99500000090"
+  },
+  {
+    "id": "photo_camera_ui_collision",
+    "runtime_group": "PHOTO_CAMERA",
+    "rva": 11141249,
+    "original": "7578",
+    "accepted": [
+      "7578",
+      "eb78"
+    ],
+    "patched": "eb78"
+  },
+  {
+    "id": "photo_camera_ui_vertical_bounds",
+    "runtime_group": "PHOTO_CAMERA",
+    "rva": 11141371,
+    "original": "c5fa10542474",
+    "accepted": [
+      "c5fa10542474",
+      "e95300000090"
+    ],
+    "patched": "e95300000090"
+  }
+]

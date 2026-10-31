@@ -1,0 +1,17 @@
+{
+  "name": "Treasure Map",
+  "dll": "TreasureMap.dll",
+  "game": "fh2ff",
+  "native": true,
+  "source": "Fast & Furious only (it has no Treasure Map add-on, but the Treasure Map code of Forza Horizon 2 is still there): Xtra Options' TREASURE_MAP (features/unlocks, from Extra Options 0.4.4) found again by hand, the sites Fast & Furious keeps: the map's purchased-flag getters bound to the game's own 'return true' (0x886480), the barn-find marker check skipped, and a board-setup callback (in padding 0x40fca8) that marks every board it sets up as discovered; the map-check getter and the add-on store sites have no Fast & Furious counterpart",
+  "groups": {
+    "TREASURE_MAP": {
+      "section": "Map",
+      "key": "TreasureMap",
+      "default": 0
+    }
+  },
+  "code": [
+    "treasure_map.c"
+  ]
+}

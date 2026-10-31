@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "runtime_groups": [
+    "ADDONS",
+    "AUTODRIVE",
+    "BOOT_CAR_MEET",
+    "CAMERA_FOV",
+    "DRIFT_CAMERA",
+    "ENGINE_SWAPS",
+    "FRONTEND_XML",
+    "GAMERPIC",
+    "LIVERY",
+    "MEDIA_OVERRIDES",
+    "MINIMAP",
+    "MSAA",
+    "PAUSE_GARAGE",
+    "PHOTO_SAMPLING",
+    "RIMS",
+    "ROAD",
+    "SUN_SHADOWS",
+    "VEHICLE_CONTROLS",
+    "VIDEO_OPTIONS"
+  ],
+  "individual_plugin_groups": [
+    "AERO_TUNING",
+    "CLUBS",
+    "DLC",
+    "INTRO",
+    "ISLAND_CARS",
+    "MARKETPLACE",
+    "PARENTAL",
+    "PHOTO_CAMERA",
+    "RIVALS",
+    "SOCIAL",
+    "TREASURE_MAP",
+    "VIP"
+  ],
+  "source": "Extra Options 0.4.4 (d66c85d), unchanged patch manifest in src/patches.json"
+}

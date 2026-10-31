@@ -1,0 +1,13 @@
+{
+  "name": "Parental Locks",
+  "dll": "ParentalLocks.dll",
+  "game": "fh2",
+  "source": "forza-injector core/patches.json (Extra Options 0.4.4 d66c85d)",
+  "groups": {
+    "PARENTAL": {
+      "section": "Compatibility",
+      "key": "DisableParentalLocks",
+      "default": 1
+    }
+  }
+}

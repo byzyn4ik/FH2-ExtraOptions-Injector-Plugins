@@ -1,0 +1,13 @@
+{
+  "name": "Photo Mode",
+  "dll": "PhotoMode.dll",
+  "game": "fh2ff",
+  "source": "ported from xtra-options/features/photo-mode by tools/port_feature.py (FH2 1.0.0.64 -> Fast & Furious 1.0.0.6; same bytes at every site)",
+  "groups": {
+    "PHOTO_CAMERA": {
+      "section": "PhotoMode",
+      "key": "FreeCamera",
+      "default": 1
+    }
+  }
+}

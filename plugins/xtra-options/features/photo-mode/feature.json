@@ -1,0 +1,13 @@
+{
+  "name": "Photo Mode",
+  "dll": "PhotoMode.dll",
+  "game": "fh2",
+  "source": "forza-injector core/patches.json (Extra Options 0.4.4 d66c85d)",
+  "groups": {
+    "PHOTO_CAMERA": {
+      "section": "PhotoMode",
+      "key": "FreeCamera",
+      "default": 1
+    }
+  }
+}

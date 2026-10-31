@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "documents-saves",
+  "name": "Saves in Documents (mirror)",
+  "author": "Max (byzyn4ik)",
+  "version": "0.1.0",
+  "description": "Forza Horizon 2's saves in Documents\\My Games\\<game>\\Saves\\<title>. Under forza_injector the game loads and stores them there (Mode=Auto turns on forza-injector.ini [Saves] Location=Documents); otherwise a verified copy of every save is kept there while the game uses Azimuth's own folder, which the plugin only reads and never deletes anything in.",
+  "games": ["fh2", "fh2ff"],
+  "dependencies": []
+}

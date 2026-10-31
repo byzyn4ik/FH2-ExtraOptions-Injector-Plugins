@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "performance",
+  "name": "Performance",
+  "author": "Max (byzyn4ik)",
+  "version": "0.0.5",
+  "description": "An FPS counter in the top-right corner (FPS, GPU load and video memory; Detailed adds frame times, the 1% low and the GPU frame time), an FPS counter row on the Video settings page an optional performance log (CSV) and, with the Nitrous plugin, Fast & Furious' nitrous gauge beside the speedometer.",
+  "games": ["fh2", "fh2ff", "fm5", "fm6"],
+  "dependencies": []
+}

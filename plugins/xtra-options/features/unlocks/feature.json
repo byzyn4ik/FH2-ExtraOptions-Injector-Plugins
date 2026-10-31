@@ -1,0 +1,34 @@
+{
+  "name": "Unlocks",
+  "dll": "Unlocks.dll",
+  "game": "fh2",
+  "source": "forza-injector core/patches.json (Extra Options 0.4.4 d66c85d)",
+  "groups": {
+    "DLC": {
+      "section": "Content",
+      "key": "UnlockDLC",
+      "default": 1
+    },
+    "VIP": {
+      "section": "Content",
+      "key": "OfflineVIP",
+      "default": 1
+    },
+    "ISLAND_CARS": {
+      "section": "Content",
+      "key": "UnlockStormIslandCars",
+      "default": 1
+    },
+    "TREASURE_MAP": {
+      "section": "Content",
+      "key": "UnlockTreasureMap",
+      "default": 0
+    }
+  },
+  "code": [
+    "treasure_map.c"
+  ],
+  "hooks": [
+    "treasure_map_board_setup_callback"
+  ]
+}

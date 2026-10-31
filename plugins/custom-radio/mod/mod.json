@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "custom-radio",
+  "name": "Custom Radio",
+  "author": "Max (byzyn4ik)",
+  "version": "0.0.6",
+  "description": "Your own music (MP3 and FLAC) as an extra station on the game's radio. Keys: F9 tunes in, F7 next track, F6 restart / previous track. Settings in plugins/CustomRadio.ini; the station's logo is in plugins/CustomRadio/Media.",
+  "games": ["fh2", "fh2ff"],
+  "dependencies": [],
+  "media": "plugins/CustomRadio/Media"
+}

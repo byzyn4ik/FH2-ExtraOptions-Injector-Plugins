@@ -1,0 +1,14 @@
+{
+  "name": "Photo Mode Unlock",
+  "dll": "PhotoModeUnlock.dll",
+  "game": "fh2ff",
+  "native": true,
+  "source": "Fast & Furious only (no Forza Horizon 2 counterpart): WaitForPause's photo-mode check 0x9a7250 takes a flag (byte +0x3d of the record 0xa9c4b0 looks up) that keeps photo mode locked until the game unlocks it; the flag is read as set",
+  "groups": {
+    "PHOTO_UNLOCK": {
+      "section": "PhotoMode",
+      "key": "UnlockEarly",
+      "default": 0
+    }
+  }
+}

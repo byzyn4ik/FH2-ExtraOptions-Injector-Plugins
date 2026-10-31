@@ -1,0 +1,222 @@
+[
+  {
+    "id": "social_group_enabled_ddae81",
+    "runtime_group": "SOCIAL",
+    "rva": 14528129,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "social_group_enabled_ddb75d",
+    "runtime_group": "SOCIAL",
+    "rva": 14530397,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "social_group_enabled_ddba96",
+    "runtime_group": "SOCIAL",
+    "rva": 14531222,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "clubs_group_enabled_ddae0a",
+    "runtime_group": "CLUBS",
+    "rva": 14528010,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "clubs_group_enabled_ddb2a1",
+    "runtime_group": "CLUBS",
+    "rva": 14529185,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "clubs_group_enabled_ddbad5",
+    "runtime_group": "CLUBS",
+    "rva": 14531285,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "clubs_group_enabled_ddbcd8",
+    "runtime_group": "CLUBS",
+    "rva": 14531800,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "rivals_group_enabled_ddae34",
+    "runtime_group": "RIVALS",
+    "rva": 14528052,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "rivals_group_enabled_ddaef0",
+    "runtime_group": "RIVALS",
+    "rva": 14528240,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "rivals_group_enabled_ddaf7a",
+    "runtime_group": "RIVALS",
+    "rva": 14528378,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "rivals_group_enabled_ddb123",
+    "runtime_group": "RIVALS",
+    "rva": 14528803,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "rivals_group_enabled_ddb2b6",
+    "runtime_group": "RIVALS",
+    "rva": 14529206,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "rivals_group_enabled_ddb655",
+    "runtime_group": "RIVALS",
+    "rva": 14530133,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "rivals_group_enabled_ddbaea",
+    "runtime_group": "RIVALS",
+    "rva": 14531306,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "4533c0909090"
+    ],
+    "patched": "4533c0909090"
+  },
+  {
+    "id": "marketplace_group_enabled_1",
+    "runtime_group": "MARKETPLACE",
+    "rva": 14527661,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "41b800000000"
+    ],
+    "patched": "41b800000000"
+  },
+  {
+    "id": "marketplace_group_enabled_2",
+    "runtime_group": "MARKETPLACE",
+    "rva": 14528031,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "41b800000000"
+    ],
+    "patched": "41b800000000"
+  },
+  {
+    "id": "marketplace_group_enabled_3",
+    "runtime_group": "MARKETPLACE",
+    "rva": 14529269,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "41b800000000"
+    ],
+    "patched": "41b800000000"
+  },
+  {
+    "id": "marketplace_group_enabled_4",
+    "runtime_group": "MARKETPLACE",
+    "rva": 14530832,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "41b800000000"
+    ],
+    "patched": "41b800000000"
+  },
+  {
+    "id": "marketplace_group_enabled_5",
+    "runtime_group": "MARKETPLACE",
+    "rva": 14531390,
+    "original": "41b801000000",
+    "accepted": [
+      "41b801000000",
+      "41b800000000"
+    ],
+    "patched": "41b800000000"
+  },
+  {
+    "id": "catalog_include_owned_packs",
+    "runtime_group": "MARKETPLACE",
+    "rva": 32848064,
+    "original": "53454c4543542049642c2050726f6475637449642c20446973706c61794e616d652c204465736372697074696f6e2c20496d616765506174682c205468756d62506174682c204973467265652046524f4d20436f6e74656e744f66666572732057484552452056697369626c653d3120414e44205374796c653d274361725061636b27204f52444552204259204a554c49414e4441592852656c65617365446174652920444553432c2049642044455343",
+    "accepted": [
+      "53454c4543542049642c2050726f6475637449642c20446973706c61794e616d652c204465736372697074696f6e2c20496d616765506174682c205468756d62506174682c204973467265652046524f4d20436f6e74656e744f66666572732057484552452056697369626c653d3120414e44205374796c653d274361725061636b27204f52444552204259204a554c49414e4441592852656c65617365446174652920444553432c2049642044455343",
+      "53454c4543542049642c50726f6475637449642c446973706c61794e616d652c4465736372697074696f6e2c496d616765506174682c5468756d62506174682c4973467265652046524f4d20436f6e74656e744f66666572732057484552452856697369626c657c497350757263686173656429414e44205374796c653d274361725061636b274f52444552204259204a554c49414e4441592852656c656173654461746529444553432c312044455343"
+    ],
+    "patched": "53454c4543542049642c50726f6475637449642c446973706c61794e616d652c4465736372697074696f6e2c496d616765506174682c5468756d62506174682c4973467265652046524f4d20436f6e74656e744f66666572732057484552452856697369626c657c497350757263686173656429414e44205374796c653d274361725061636b274f52444552204259204a554c49414e4441592852656c656173654461746529444553432c312044455343"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "nitrous",
+  "name": "Nitrous",
+  "author": "Max (byzyn4ik)",
+  "version": "0.0.5",
+  "description": "Fast & Furious' nitrous in Forza Horizon 2: hold the left stick click (or Left Shift) with the throttle down for a torque boost from a tank that refills. Uses the nitrous model Forza Horizon 2's car physics still has; only the player's car. With Fast & Furious' exhaust flames, pad rumble, camera layers and NOS sounds (the last two made from your own copy of the game); the gauge is drawn by Performance.",
+  "games": ["fh2"],
+  "dependencies": []
+}

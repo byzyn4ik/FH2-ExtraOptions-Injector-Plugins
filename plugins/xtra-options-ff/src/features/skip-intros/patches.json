@@ -1,0 +1,50 @@
+[
+  {
+    "id": "intro_resources_skip",
+    "runtime_group": "INTRO",
+    "rva": 2245936,
+    "original": "0f8546010000",
+    "accepted": [
+      "0f8546010000",
+      "e94701000090"
+    ],
+    "patched": "e94701000090",
+    "fh2_rva": 2217376
+  },
+  {
+    "id": "intro_sequence_skip",
+    "runtime_group": "INTRO",
+    "rva": 2250333,
+    "original": "750b",
+    "accepted": [
+      "750b",
+      "eb0b"
+    ],
+    "patched": "eb0b",
+    "fh2_rva": 2221709
+  },
+  {
+    "id": "intro_complete_state",
+    "runtime_group": "INTRO",
+    "rva": 2257041,
+    "original": "750a",
+    "accepted": [
+      "750a",
+      "eb0a"
+    ],
+    "patched": "eb0a",
+    "fh2_rva": 2228381
+  },
+  {
+    "id": "intro_resource_name_skip",
+    "runtime_group": "INTRO",
+    "rva": 2261696,
+    "original": "0f858c000000",
+    "accepted": [
+      "0f858c000000",
+      "e98d00000090"
+    ],
+    "patched": "e98d00000090",
+    "fh2_rva": 2232960
+  }
+]

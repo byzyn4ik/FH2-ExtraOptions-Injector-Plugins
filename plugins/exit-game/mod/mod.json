@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "exit-game",
+  "name": "Exit Game",
+  "author": "Max (byzyn4ik)",
+  "version": "0.0.2",
+  "description": "An Exit Game tile on the pause menu's Home tab (beside Online Road Trip, or Fast & Furious' Online Free Roam, made square) that closes the game.",
+  "games": ["fh2", "fh2ff"],
+  "dependencies": []
+}

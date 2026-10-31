@@ -1,0 +1,75 @@
+# Ukrainian glossary for the Forza Horizon 2 and Fast & Furious language packs (translations/uk-fixes.tsv).
+# Translate from the English text, in racing-game context. Formal «ви» (plural imperative: «Оберіть», «Натисніть»);
+# menu buttons and commands in the infinitive («Продовжити», «Скасувати»). Quotes «», apostrophe ’, dash —.
+english	ukrainian	notes
+Event	Подія	pl. події; «подія чемпіонату»
+Race (n.)	Гонка	countable: 1 гонка, 2 гонки, 5 гонок; not «перегони»; racing (activity) = гонки; race (v.) = змагатися / брати участь у гонці
+Racer / Driver	Гонщик	driver of a car in a race; «водій» only for plain driving
+Lap	Коло	1 коло, 2–4 кола, 5+ кіл (never «кіла»)
+Best Lap	Найкраще коло	BEST (lap time label next to LAP) = НАЙКРАЩЕ
+Best Time	Найкращий час
+Rivals	Суперники	game mode and opponents; Rival = суперник
+Championship	Чемпіонат
+Festival / Horizon Festival	Фестиваль / фестиваль Horizon
+Showcase	Шоукейс	event type (race against a plane, train, etc.)
+Head to Head	Один на один	street race against a single driver
+Street Race	Вулична гонка
+Circuit	Кільцева траса	short label «Кільце» only if space requires
+Sprint	Спринт
+Cross Country	Крос-кантрі
+Drag / Drag Race	Дрег / дрег-гонка
+Drift	Дрифт
+Road Trip	Роуд-тріп
+Barn Find	Знахідка в сараї	pl. знахідки в сараях
+Autoshow	Автосалон
+Car Meet	Автозустріч	pl. автозустрічі
+Bucket List	Список гонщика	(established in the pack)
+Speed Trap	Пастка швидкості	never «ловушка»
+Speed Zone	Зона швидкості
+Danger Sign	Знак небезпеки	jump sign
+Speed Camera	Камера швидкості
+Bonus Board	Бонусна дошка	pl. бонусні дошки; Discount Board = дошка знижок
+Treasure Map	Карта скарбів
+Skill Score / Points	Очки	«очки навичок»; score in general = результат / рахунок
+Fast Travel	Швидке переміщення
+Free Roam	Вільна їзда
+Skill	Навичка	pl. навички; Skill Chain = ланцюг навичок; Skill Points = очки навичок; never «скіл»
+Perks	Перки	sg. перк
+Near Miss	На волосок	skill name
+Drafting / Slipstream	Сліпстрім	skill name
+Clean Racing	Чиста гонка	skill name
+Upgrade (n.)	Апгрейд	pl. апгрейди; upgrade (v.) = покращити / встановити апгрейд
+Tuning / Tune	Тюнінг	tuning setup; a saved tune = налаштування тюнінгу / тюнінг
+Performance (car)	Характеристики / ходові якості	«performance increase» = покращення характеристик; Performance Index = індекс продуктивності (PI)
+Assists	Помічники	driving assists = помічники водія
+Difficulty	Складність
+Rewind	Перемотка
+Credits (money)	Кредити	CR stays CR
+XP	XP
+Drivatar	Drivatar	Latin, as the pack has it
+Forzavista	Forzavista
+Livery / Design	Дизайн	pl. дизайни
+Vinyl	Вініл	Vinyl Group = група вінілів; layer = шар
+Photo Mode	Режим фото
+Leaderboard	Таблиця лідерів
+Auction House	Аукціон
+Storefront	Магазин	the Storefront (shared files); my storefront = мій магазин
+Garage	Гараж
+Club	Клуб
+Online	Онлайн
+Multiplayer	Мультиплеєр
+Party	Група	game party
+Session	Сесія
+Player	Гравець
+Friends	Друзі
+Gift	Подарунок
+Manufacturer	Виробник
+Car	Авто	(pl. авто); «автомобіль» / «машина» where natural
+Muscle Car	Маслкар	pl. маслкари; not «м’язкар» / «мускулкар»
+Hot Hatch	Хот-хетч
+HUD	HUD
+Level (LVL)	Рівень (РІВ.)
+Personal Best (PB)	Особистий рекорд / РЕКОРД
+Touring car	Туринговий
+Decal	Наклейка
+Storm Island	Storm Island	place and track names: keep the pack's choice (Latin town names, translated descriptive parts); do not churn

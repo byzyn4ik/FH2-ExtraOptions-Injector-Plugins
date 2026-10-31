@@ -1,0 +1,46 @@
+[
+  {
+    "id": "aero_front_tuning_unlocked",
+    "runtime_group": "AERO_TUNING",
+    "rva": 15313723,
+    "original": "e810cf4aff",
+    "accepted": [
+      "e810cf4aff",
+      "b001909090"
+    ],
+    "patched": "b001909090"
+  },
+  {
+    "id": "aero_rear_tuning_unlocked",
+    "runtime_group": "AERO_TUNING",
+    "rva": 15313831,
+    "original": "e8f4ce4aff",
+    "accepted": [
+      "e8f4ce4aff",
+      "b001909090"
+    ],
+    "patched": "b001909090"
+  },
+  {
+    "id": "front_aero_physics_ranges",
+    "runtime_group": "AERO_TUNING",
+    "rva": 17135157,
+    "original": "e8069c0000",
+    "accepted": [
+      "e8069c0000",
+      "e8fa9b0000"
+    ],
+    "patched": "e8fa9b0000"
+  },
+  {
+    "id": "rear_aero_physics_ranges",
+    "runtime_group": "AERO_TUNING",
+    "rva": 17135280,
+    "original": "e88b9b0000",
+    "accepted": [
+      "e88b9b0000",
+      "e8af990000"
+    ],
+    "patched": "e8af990000"
+  }
+]

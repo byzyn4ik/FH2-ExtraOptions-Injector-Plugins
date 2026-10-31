@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "keyboard-mouse",
+  "name": "Keyboard & Mouse",
+  "author": "Max (byzyn4ik)",
+  "version": "0.0.2",
+  "description": "Play with a keyboard and mouse without a virtual controller: rebindable keys for driving and menus, mouse look, a menu pointer, and a KEYBOARD & MOUSE page on the pause menu's Settings hub.",
+  "games": ["fh2", "fh2ff", "fm5", "fm6"],
+  "dependencies": []
+}

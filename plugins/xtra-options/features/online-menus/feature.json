@@ -1,0 +1,28 @@
+{
+  "name": "Online Menus",
+  "dll": "OnlineMenus.dll",
+  "game": "fh2",
+  "source": "forza-injector core/patches.json (Extra Options 0.4.4 d66c85d)",
+  "groups": {
+    "SOCIAL": {
+      "section": "Frontend",
+      "key": "EnableSocial",
+      "default": 1
+    },
+    "CLUBS": {
+      "section": "Frontend",
+      "key": "EnableClubs",
+      "default": 1
+    },
+    "RIVALS": {
+      "section": "Frontend",
+      "key": "EnableRivals",
+      "default": 1
+    },
+    "MARKETPLACE": {
+      "section": "Frontend",
+      "key": "EnableMarketplace",
+      "default": 1
+    }
+  }
+}

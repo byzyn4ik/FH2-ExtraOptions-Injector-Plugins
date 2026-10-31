@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "xtra-options",
+  "name": "Xtra Options",
+  "author": "Max (byzyn4ik)",
+  "version": "0.2.0",
+  "description": "Forza Horizon 2 Extra Options as an optional game runtime provider, independent feature DLLs and Xtra Features. The injector stays game-agnostic; stock Extra Options supplies its own built-in runtime.",
+  "games": ["fh2"],
+  "dependencies": []
+}

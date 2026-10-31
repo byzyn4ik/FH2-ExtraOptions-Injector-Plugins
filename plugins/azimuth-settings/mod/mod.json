@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "azimuth-settings",
+  "name": "Azimuth Settings",
+  "author": "Max (byzyn4ik)",
+  "version": "0.0.1",
+  "description": "All of Azimuth's per-game settings as rows of the game's own settings pages: frame rate, V-sync, resolution, aspect ratio, display mode, HDR, the graphics preset and its nine details and anti-aliasing on the Video page; audio output, volume, speech and text language on the Audio page. Forza Horizon 2 and Fast & Furious; frame rate, display mode, shadow distance and redraw and volume apply at once. Do not install together with Azimuth Graphics Options.",
+  "games": ["fh2", "fh2ff"],
+  "dependencies": []
+}

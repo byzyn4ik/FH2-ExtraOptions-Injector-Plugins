@@ -1,0 +1,314 @@
+# Ukrainian for Forza Horizon 2 Presents Fast & Furious: the rows Forza Horizon 2's Ukrainian pack does
+# not cover (Fast & Furious' own text, and rows whose English differs from Forza Horizon 2's). Every
+# other row comes from the FH2 pack at build time (same table, key and English). Used by
+# tools\make_language_pack.py port --translations. source: new (translated for Fast & Furious),
+# fh2 (FH2 pack's Ukrainian of the same English under another key), fh2-edit (FH2 pack's Ukrainian
+# of the same key, adapted to the changed English), keep (stays as written: names, brands).
+# \n \t \r \\ in a cell: line break, tab, carriage return, backslash.
+table	key	english	translation	source
+AIPlayers.str	IDS_Name_316	TARGET	ЦІЛЬ	new
+AnthemEventRaces.str	IDS_CustomInstructionText_542	BEAT THE SUPRA!	ОБЖЕНІТЬ SUPRA!	new
+AnthemEventRaces.str	IDS_CustomInstructionText_558	BEAT THE CUDA!	ОБЖЕНІТЬ CUDA!	new
+AnthemEventRaces.str	IDS_CustomInstructionText_677	BEAT THE GT-R!	ОБЖЕНІТЬ GT-R!	new
+AnthemEventRaces.str	IDS_CustomInstructionText_771	BEAT THE P1!	ОБЖЕНІТЬ P1!	new
+AnthemEventRaces.str	IDS_CustomInstructionText_786	BEAT THE VEYRON!	ОБЖЕНІТЬ VEYRON!	new
+AnthemEventRaces.str	IDS_CustomInstructionText_788	BEAT THE CHOPPER!	ОБЖЕНІТЬ ГЕЛІКОПТЕР!	new
+AnthemEventRaces.str	IDS_CustomInstructionText_789	BEAT THE CARGO PLANE!	ОБЖЕНІТЬ ВАНТАЖНИЙ ЛІТАК!	new
+AnthemEventRaces.str	IDS_CustomInstructionText_791	BEAT THE CHARGER!	ОБЖЕНІТЬ CHARGER!	new
+AnthemEventRaces.str	IDS_CustomInstructionText_792	BEAT THE GHIBLI!	ОБЖЕНІТЬ GHIBLI!	new
+AnthemEvents.str	IDS_Name_318	Ville Street Race	Ville: Вуличні перегони	fh2
+AnthemEvents.str	IDS_Name_320	Main City Circuit	Головна міська: Колова траса	fh2
+AnthemEvents.str	IDS_Name_322	City Parc Street Race	Міський парк: Вуличні перегони	fh2
+AnthemEvents.str	IDS_Name_323	Le Prince Cross Country	Le Prince: Крос-кантрі	fh2
+AnthemEvents.str	IDS_Name_326	Shoreline Sprint	Набережна: Спринт	fh2
+AnthemEvents.str	IDS_Name_330	Highway Sprint	Шосе: Спринт	fh2
+AnthemEvents.str	IDS_Name_331	Garibaldi Street Race	Garibaldi: Вуличні перегони	fh2
+AnthemEvents.str	IDS_Name_332	North Ridge Street Race	Північний хребет: Вуличні перегони	fh2
+AnthemEvents.str	IDS_Name_334	Montagne Hill Climb	Montagne: Підйом на пагорб	fh2
+AnthemEvents.str	IDS_Name_336	Circuit Grandiose	Circuit Grandiose	fh2
+AnthemEvents.str	IDS_Name_337	Bordure Circuit	Bordure: Колова траса	fh2
+AnthemEvents.str	IDS_Name_548065	Airstrike	Авіаудар	new
+AnthemEvents.str	IDS_Name_560	Special Delivery	Спецдоставка	new
+AnthemEvents.str	IDS_Name_563	Grand Tour Street Race	Гран-тур: Вуличні перегони	fh2
+AnthemEvents.str	IDS_Name_564	Nice Street Race	Ніцца: Вуличні перегони	new
+BarnFind.str	IDS_BarnfindBeingRestored_Message	You will be notified when it is ready.	Коли все буде готово, ви отримаєте сповіщення.	new
+BucketList.str	IDS_BucketList_Lower	Bucket List	Список подій	fh2
+BucketList.str	IDS_ChallengeType_MaintainSpeed	Maintain Speed	Утримання швидкості	new
+BucketList.str	IDS_DamageControl_ObjectiveShort	DRIVE CAREFULLY	ЇДЬ ОБЕРЕЖНО	new
+BucketList.str	IDS_Destination_ObjectiveShort	RACE TO THE DESTINATION	ГОНКА ДО ФІНІШУ	fh2
+BucketList.str	IDS_HardcoreSprint_ObjectiveShort	REACH THE DESTINATION	ДІСТАНЬСЯ ФІНІШУ	fh2
+BucketList.str	IDS_MultiSpeedTrapCount_ObjectiveShort	TRIGGER {0} SPEED TRAPS	АКТИВУЙ {0} РАДАРІВ	fh2
+BucketList.str	IDS_MultiSpeedTrap_ObjectiveShort	BEAT THE SPEED TARGET	ПЕРЕВИЩ ШВИДКІСТЬ	fh2
+BucketList.str	IDS_MultiSpeedZoneCount_ObjectiveShort	TRIGGER {0} SPEED ZONES	АКТИВУЙ {0} ШВИДКІСНИХ ЗОН	fh2
+BucketList.str	IDS_MultiSpeedZone_ObjectiveShort	BEAT THE SPEED TARGET	ПЕРЕВИЩ ШВИДКІСТЬ	fh2
+BucketList.str	IDS_SkillCombo_ObjectiveShort	PERFORM ALL THE SKILLS IN THE CORRECT ORDER	ВИКОНАЙ УСІ НАВИЧКИ В ПРАВИЛЬНОМУ ПОРЯДКУ	fh2
+BucketList.str	IDS_SkillDrive_ObjectiveShort	DRIVE WITH STYLE	ЇДЬ СТИЛЬНО	new
+BucketList.str	IDS_SkillMastery_Double_ObjectiveShort	SHOW OFF {0} SKILLS	ПОКАЖИ {0} НАВИЧОК	fh2
+BucketList.str	IDS_SkillMastery_ObjectiveShort	SHOW OFF {0} SKILLS	ПОКАЖИ {0} НАВИЧОК	fh2
+BucketList.str	IDS_SkillScore_ObjectiveShort	BEAT THE SKILLS TARGET	ПЕРЕВИЩ ЦІЛЬ ПО НАВИЧКАХ	fh2
+BucketList.str	IDS_Smashable_ObjectiveShort	SMASH {0} {1}	РОЗТРОЩИ {0} {1}	new
+BucketList.str	IDS_Smashables_10	restaurant tables	ресторанних столиків	new
+BucketList.str	IDS_Smashables_10_Uppercase	RESTAURANT TABLES	РЕСТОРАННИХ СТОЛИКІВ	new
+BucketList.str	IDS_Smashables_11	boards	рекламних щитів	fh2
+BucketList.str	IDS_Smashables_11_Uppercase	BOARDS	РЕКЛАМНИХ ЩИТІВ	fh2
+BucketList.str	IDS_Smashables_8	lamp posts	ліхтарних стовпів	new
+BucketList.str	IDS_Smashables_8_Uppercase	LAMP POSTS	ЛІХТАРНИХ СТОВПІВ	new
+BucketList.str	IDS_Smashables_9	phone boxes	телефонних будок	new
+BucketList.str	IDS_Smashables_9_Uppercase	PHONE BOXES	ТЕЛЕФОННИХ БУДОК	new
+BucketList.str	IDS_SpeedTrap_ObjectiveShort	BEAT THE SPEED TARGET	ПЕРЕВИЩ ШВИДКІСТЬ	fh2
+BucketList.str	IDS_SpeedZone_ObjectiveShort	BEAT THE SPEED TARGET	ПЕРЕВИЩ ШВИДКІСТЬ	fh2
+BucketList.str	IDS_StuntDrive_ObjectiveShort	DRIVE WITH STYLE	ЇДЬ СТИЛЬНО	new
+BucketListChallenges.str	IDS_DescriptionCoop_10	GO FASTER AND [YELLOW:GET DIRTIER] THAN WE DID IN TWO {1}S	ЇДЬТЕ ШВИДШЕ І [YELLOW:БРУДНУЙТЕСЯ] БІЛЬШЕ, НІЖ МИ НА ДВОХ {1}	fh2
+BucketListChallenges.str	IDS_DescriptionCoop_11	TEAR AROUND THE STREETS OF [YELLOW:NICE] IN TWO {1}S	ПРОЖЕНІТЬСЯ НА ДВОХ {1} ПО ВУЛИЦЯХ [YELLOW:NICE]	fh2
+BucketListChallenges.str	IDS_DescriptionCoop_40	BEAT THE TARGET IN THE [1]	ОБЖЕНІТЬ ЦІЛЬ НА [1]	new
+BucketListChallenges.str	IDS_DescriptionCoop_41	BEAT THE TARGET IN THE [1]	ОБЖЕНІТЬ ЦІЛЬ НА [1]	new
+BucketListChallenges.str	IDS_DescriptionCoop_42	BEAT THE TARGET IN THE [1]	ОБЖЕНІТЬ ЦІЛЬ НА [1]	new
+BucketListChallenges.str	IDS_DescriptionCoop_43	BEAT THE TARGET IN THE [1]	ОБЖЕНІТЬ ЦІЛЬ НА [1]	new
+BucketListChallenges.str	IDS_DescriptionCoop_44	BEAT THE TARGET IN THE [1]	ОБЖЕНІТЬ ЦІЛЬ НА [1]	new
+BucketListChallenges.str	IDS_DescriptionCoop_47	BEAT THE TARGET IN THE [1]	ОБЖЕНІТЬ ЦІЛЬ НА [1]	new
+BucketListChallenges.str	IDS_DescriptionCoop_49	BEAT THE TARGET IN THE [1]	ОБЖЕНІТЬ ЦІЛЬ НА [1]	new
+BucketListChallenges.str	IDS_DescriptionCoop_8	ESCAPE [YELLOW:TO THE COUNTRY] IN TWO {1}'S	РВОНІТЬ [YELLOW:ЗА МІСТО] НА ДВОХ {1}	new
+BucketListChallenges.str	IDS_DescriptionCoop_9	THROW TWO {1}S AROUND THE [YELLOW:DOCKS]	ПРОЖЕНІТЬСЯ НА ДВОХ {1} ПО [YELLOW:ДОКАХ]	fh2
+BucketListChallenges.str	IDS_Description_10	GO FASTER AND [YELLOW:GET DIRTIER] THAN WE DID IN A {1}	ЇДЬ ШВИДШЕ І [YELLOW:БРУДНИСЬ] БІЛЬШЕ, НІЖ МИ НА {1}	fh2
+BucketListChallenges.str	IDS_Description_11	TEAR AROUND THE STREETS OF [YELLOW:NICE] IN A {1}	ПРОЖЕНИ {1} ПО ВУЛИЦЯХ [YELLOW:NICE]	fh2
+BucketListChallenges.str	IDS_Description_40	900 HORSES	900 КОНЕЙ	new
+BucketListChallenges.str	IDS_Description_41	DOCKYARD DESTRUCTION	РОЗГРОМ НА ВЕРФІ	new
+BucketListChallenges.str	IDS_Description_42	DAMAGE LIMITATION	МІНІМУМ ПОШКОДЖЕНЬ	new
+BucketListChallenges.str	IDS_Description_43	KING OF SPEED	КОРОЛЬ ШВИДКОСТІ	new
+BucketListChallenges.str	IDS_Description_44	BUILT FOR SPEED	СТВОРЕНИЙ ДЛЯ ШВИДКОСТІ	new
+BucketListChallenges.str	IDS_Description_47	DOUBLE OR NOTHING	ВСЕ АБО НІЧОГО	new
+BucketListChallenges.str	IDS_Description_49	DAMAGE LIMITATION	МІНІМУМ ПОШКОДЖЕНЬ	new
+BucketListChallenges.str	IDS_Description_8	ESCAPE [YELLOW:TO THE COUNTRY] IN A {1}	РВОНИ [YELLOW:ЗА МІСТО] НА {1}	fh2
+BucketListChallenges.str	IDS_Description_9	THROW A {1} AROUND THE [YELLOW:DOCKS]	ПРОЖЕНИСЯ НА {1} ПО [YELLOW:ДОКАХ]	fh2
+BucketLists.str	IDS_TaglineCoop_0	CO-OP BUCKETLIST	КООП-СПИСОК ПОДІЙ	new
+BucketLists.str	IDS_Tagline_0	BUCKETLIST	СПИСОК БАЖАНЬ	fh2
+BucketLists.str	IDS_TitleCoop_0	HORIZON	HORIZON	keep
+BucketLists.str	IDS_TitleCoop_1	FAST	FAST	keep
+BucketLists.str	IDS_Title_0	HORIZON	HORIZON	keep
+BucketLists.str	IDS_Title_1	FAST	FAST	keep
+Campaigns.str	IDS_Name_1	Modern Muscle	Сучасний м’язкар	fh2
+Campaigns.str	IDS_Name_226	US Street Muscle	Американський стріт-масл	fh2
+Campaigns.str	IDS_Name_227	Extreme Offroad	Екстремальний позашляховик	fh2
+Campaigns.str	IDS_Name_228	Super Saloon	Суперський седан	new
+Campaigns.str	IDS_Name_229	JDM Icons	Легенди JDM	fh2
+Campaigns.str	IDS_Name_230	Modern Supercars	Сучасні суперкари	fh2
+Campaigns.str	IDS_Name_231	Hypercars	Гіперкари	fh2
+Campaigns.str	IDS_Name_232	Modern Muscle	Сучасний м’язкар	fh2
+Campaigns.str	IDS_Name_233	Modern Supercars	Сучасні суперкари	fh2
+CarFlow.str	IDS_RentalCar_Desc	Hire a car.	Орендуйте авто.	new
+Cinematics/Subtitles/BarnFind_Intro_Spire_RU.xml	Key[0]	Let's see if those rumours were true.	Подивімося, чи правдиві ті чутки.	new
+Cinematics/Subtitles/BF_Reveal_PLY_RoadRunnerFast7_70_Tej_RU.xml	Key[0]	Well, it's a Roadrunner alright.	Так, це справді Roadrunner.	new
+Cinematics/Subtitles/BF_Reveal_PLY_RoadRunnerFast7_70_Tej_RU.xml	Key[1]	It needs some work though.	Але над ним доведеться попрацювати.	new
+Cinematics/Subtitles/BF_Reveal_PLY_RoadRunnerFast7_70_Tej_RU.xml	Key[2]	I'll get it back to the Garage, but it shouldn't take long.	Я відвезу його в гараж, але це не забере багато часу.	new
+Cinematics/Subtitles/BF_Reveal_PLY_RoadRunnerFast7_70_Tej_RU.xml	Key[3]	Once I get this thing up and running I'll give you a call and let you know.	Щойно поставлю цю штуку на колеса, наберу тебе й скажу.	new
+Cinematics/Subtitles/BF_Reveal_PLY_RoadRunnerFast7_70_Tej_RU.xml	Key[4]	Man this thing is gonna be tight when it's done, you'll see.	Чувак, коли я закінчу, ця тачка буде просто бомба, от побачиш.	new
+Cinematics/Subtitles/Spire_Tej_Intro_RU.xml	Key[0]	Yo, it's Tej.	Йо, це Тедж.	new
+Cinematics/Subtitles/Spire_Tej_Intro_RU.xml	Key[1]	Listen, I said I'd holler at you if I saw anyone that could be... useful? Well, I got my eye on someone.	Слухай, я обіцяв маякнути, якщо побачу когось... корисного? Так от, є в мене дехто на прикметі.	new
+Cinematics/Subtitles/Spire_Tej_Intro_RU.xml	Key[2]	Oh, he's good all right. Turned up here out of nowhere and won pretty much everything. There isn't much this guy can't do with a car. Trust me.	О, він справді добрий. Узявся тут нізвідки й виграв майже все. Мало чого цей хлопець не зможе зробити з машиною. Повір мені.	new
+Cinematics/Subtitles/Spire_Tej_Intro_RU.xml	Key[3]	I'm going to try him out with something more... serious. If he passes, we can start looking at that shopping list you sent me.	Хочу перевірити його на чомусь... серйознішому. Якщо впорається, візьмемося за той список покупок, що ти мені надіслав.	new
+Cinematics/Subtitles/Spire_Tej_Intro_RU.xml	Key[4]	All right, brother.  You try to stay out of trouble. I'll be in touch.	Гаразд, брате. Намагайся не встрявати в халепи. Я на зв’язку.	new
+Cinematics/Subtitles/Spire_Tej_Outro_RU.xml	Key[0]	Well, we did it. Me and my crew have all the hardware they need and you've made some friends for life, trust me.	Що ж, ми це зробили. У моєї команди є все потрібне залізо, а в тебе тепер друзі на все життя, повір мені.	new
+Cinematics/Subtitles/Spire_Tej_Outro_RU.xml	Key[1]	Man we couldn't have pulled this off without your skills.	Чувак, без твоїх навичок ми б це не провернули.	new
+Cinematics/Subtitles/Spire_Tej_Outro_RU.xml	Key[2]	Hold on though, there's still plenty left to do at the Horizon Festival.	Але зачекай, на фестивалі Horizon ще повно справ.	new
+Cinematics/Subtitles/Spire_Tej_Outro_RU.xml	Key[3]	That should keep you busy 'til I hit you up again.	Це не дасть тобі занудьгувати, доки я знову не наберу.	new
+Cinematics/Subtitles/Spire_Tej_Outro_RU.xml	Key[4]	Good luck...	Удачі...	new
+Community.str	IDS_No_Connection_Description	The Forza Horizon 2 Presents Fast & Furious server is not currently available. Please try again later. You can still race with other players by choosing ''User-created races''.	Сервер Forza Horizon 2 Presents Fast & Furious наразі недоступний. Спробуйте пізніше. Ви все одно можете змагатися з іншими гравцями, вибравши «Користувацькі гонки».	fh2-edit
+DiscountBoards.str	IDS_Boards_Smashed_Nitrous	REWARD BOARDS SMASHED	РОЗБИТО НАГОРОДНИХ ДОШОК	new
+GameOptions2.str	IDS_Option_Nitrous	Nitrous	Нітро	new
+HelpButtons.str	IDS_BeatenRivalMenu_CollectReward	Finish Rivals	Вийти з режиму «Суперники»	new
+HelpButtons.str	IDS_FastTravelFormat	Fast Travel	Швидка подорож	fh2
+InGame.str	IDS_Button_to_Nitrous	TO USE NITROUS	ЩОБ УВІМКНУТИ НІТРО	new
+InGame.str	IDS_HudOption_MinorNotifications_Desc	Turn off notification popups including those for Rivals, Road Discovery, and Bonus Boards.	Вимкнути спливаючі сповіщення про Rivals, Road Discovery та бонусні дошки.	fh2-edit
+InGame.str	IDS_IE_Heats_Instruction	FINISH IN THE TOP {0}	ФІНІШУЙТЕ В ТОП-{0}	fh2-edit
+InGame.str	IDS_IE_Heats_Instruction_First	FINISH 1ST	ФІНІШУЙТЕ ПЕРШИМ	new
+InGame.str	IDS_IE_Heats_Instruction_Instruction_Main	FINISH IN THE TOP {0}	ФІНІШУЙТЕ В ТОП-{0}	fh2-edit
+InGame.str	IDS_IE_Heats_Instruction_Instruction_Main_First	FINISH 1ST	ФІНІШУЙТЕ ПЕРШИМ	new
+InGame.str	IDS_Signup1	EVENT	ПОДІЯ	fh2
+LiveStrings.str	IDS_LSP_Disconnected_PopUp_Body	The Forza Horizon 2 Presents Fast & Furious server is not available at this time. Please try again later.	Сервер Forza Horizon 2 Presents Fast & Furious наразі недоступний. Будь ласка, спробуйте пізніше.	fh2-edit
+LiveStrings.str	IDS_RetrievingUserContent	Retrieving content from the Forza Horizon 2 Presents Fast & Furious server.	Отримання вмісту з сервера Forza Horizon 2 Presents Fast & Furious.	fh2-edit
+LiveStrings.str	IDS_ServerNotAvailable	Unable to retrieve content, the Forza Horizon 2 Presents Fast & Furious server is not available at this time. Please try again later.	Неможливо отримати вміст: сервер Forza Horizon 2 Presents Fast & Furious наразі недоступний. Будь ласка, спробуйте пізніше.	fh2-edit
+Lobby.str	IDS_Disconnected_PopupTitle	You have been disconnected from the session.	Вас відключено від сесії.	fh2
+Lobby.str	IDS_Lobby_RaceComplete	Event Complete – Players leaving Event	Подія завершена — гравці залишають подію	fh2-edit
+Lobby.str	IDS_Matchmaking_InIE_Msg	Keep playing to unlock Online Freeroam	Продовжуйте грати, щоб відкрити вільну їзду онлайн	new
+Map.str	IDS_DiscountBoardNitrous	REWARD BOARD	НАГОРОДНА ДОШКА	new
+Map.str	IDS_Fast_TravelConfirm_Msg	Do you want to fast travel here?	Бажаєте переміститися сюди?	fh2-edit
+Map.str	IDS_Filter_BarnFinds	Barn Find	Знахідка	fh2-edit
+Map.str	IDS_Filter_ChampionshipEvents	Car Missions	Автомісії	new
+Map.str	IDS_Finish1st	FINISH 1ST	ФІНІШУЙТЕ ПЕРШИМ	new
+Map.str	IDS_FinishTopN	FINISH IN THE TOP {0}	ФІНІШУЙТЕ В ТОП-{0}	new
+Map.str	IDS_PartN	PART {0}	ЧАСТИНА {0}	new
+Map.str	IDS_WorkshopDesc	View and Change Cars	Перегляд і зміна авто	new
+Missions.str	IDS_Name_1	PROVE YOURSELF	ПОКАЖІТЬ, НА ЩО ЗДАТНІ	new
+Missions.str	IDS_Name_10	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+Missions.str	IDS_Name_11	DELIVER THE CARS	ДОСТАВТЕ АВТО	new
+Missions.str	IDS_Name_12	BF: Plymouth Roadrunner Barn Find	Знахідка: Plymouth Roadrunner	new
+Missions.str	IDS_Name_2	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+Missions.str	IDS_Name_3	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+Missions.str	IDS_Name_4	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+Missions.str	IDS_Name_5	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+Missions.str	IDS_Name_6	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+Missions.str	IDS_Name_7	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+Missions.str	IDS_Name_8	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+Missions.str	IDS_Name_9	ACQUIRE THE {0}	ЗДОБУДЬТЕ {0}	new
+MyProfile.str	IDS_ClickFormat	{0} (CLICK)	{0} (НАТИСНІТЬ)	new
+MyProfile.str	IDS_Nitrous	NITROUS	НІТРО	new
+MyProfile.str	IDS_Stat_CarChampionshipEventsPodiumFinishes	RACE EVENT PODIUMS	ПОДІУМІВ У ГОНОЧНИХ ПОДІЯХ	new
+MyProfile.str	IDS_Stat_CarChampionshipEventsRaced	RACE EVENTS ENTERED	ГОНОЧНИХ ПОДІЙ РОЗПОЧАТО	new
+MyProfile.str	IDS_Stat_CarChampionshipEventsWon	RACE EVENTS WON	ГОНОЧНИХ ПОДІЙ ВИГРАНО	new
+MyProfile.str	IDS_Stat_FastTravelBoardsSmashed	REWARD BOARDS SMASHED	РОЗБИТО НАГОРОДНИХ ДОШОК	new
+MyProfile.str	IDS_Stat_TimeInCarChampionshipEvents	TIME IN RACE EVENTS	ЧАС У ГОНОЧНИХ ПОДІЯХ	new
+PauseMenu.str	IDS_Popup_FeatureLocked_LSPDown_Message	The Forza Horizon 2 Presents Fast & Furious server is not currently available. Please try again later.	Сервер Forza Horizon 2 Presents Fast & Furious наразі недоступний. Спробуйте ще раз пізніше.	fh2-edit
+RaceEncounters.str	IDS_HeadToHead	Head To Head	Дуель	new
+Scoreboard.str	IDS_Circuit_Race_Instructions2	RACE FAST, CLEAN AND WITH PLENTY OF SKILL!	ГОНІТЬ ШВИДКО, ЧИСТО І З МАЙСТЕРНІСТЮ!	fh2-edit
+Scoreboard.str	IDS_P2P_Race_Instructions2	RACE FAST, CLEAN AND WITH PLENTY OF SKILL!	ГОНІТЬ ШВИДКО, ЧИСТО І З МАЙСТЕРНІСТЮ!	fh2-edit
+Scoreboard.str	IDS_Street_Race_Instructions2	RACE FAST, CLEAN AND WITH PLENTY OF SKILL - BUT WATCH OUT FOR TRAFFIC!	ГОНІТЬ ШВИДКО, ЧИСТО І З МАЙСТЕРНІСТЮ, АЛЕ СТЕРЕЖІТЬСЯ ТРАФІКУ!	fh2-edit
+ScreenTitles.str	IDS_Rivals_DestinationSelect_SubTitle	RIVALS	СУПЕРНИКИ	fh2
+ScreenTitles.str	IDS_Rivals_RouteSelect_Title_	EVENTS	ПОДІЇ	new
+ScreenTitles.str	IDS_SelectCar_Subtitle_Rivals	RIVALS / CLASS {0}	СУПЕРНИКИ / КЛАС {0}	fh2-edit
+Spire.str	IDS_AssistLayoutChanged_Desc	Controller layout has been changed, please see Controls menu for new layout.	Схему контролера змінено. Нову схему дивіться в меню керування.	new
+Spire.str	IDS_AssistLayoutChanged_Title	MANUAL W/CLUTCH	РУЧНА ЗІ ЗЧЕПЛЕННЯМ	new
+Spire.str	IDS_BarnFinds_Return_To_Garage_Main	THE {0} IS NOW AVAILABLE IN THE GARAGE	АВТО {0} ТЕПЕР У ГАРАЖІ	new
+Spire.str	IDS_BarnFinds_Return_To_Garage_Sub	Fast Travel to Garage	Швидка подорож до гаражу	new
+Spire.str	IDS_BarnFinds_Spawned_Notification_Main	EXPLORE THE AREA TO LOCATE THE BARN FIND	ДОСЛІДЖУЙТЕ МІСЦЕВІСТЬ, ЩОБ ЗНАЙТИ АВТО В САРАЇ	new
+Spire.str	IDS_ChallengeSignUp1	EVENT	ПОДІЯ	fh2
+Spire.str	IDS_ChallengeSignUp2	SIGN UP	ЗАРЕЄСТРУВАТИСЬ	fh2
+Spire.str	IDS_DemoPurchase_Title_DayOneEdition	FORZA HORIZON 2 STANDARD EDITION	FORZA HORIZON 2 — ВИДАННЯ STANDARD	new
+Spire.str	IDS_DemoPurchase_Title_UltimateEdition	FORZA HORIZON 2 ULTIMATE EDITION	FORZA HORIZON 2 — ВИДАННЯ ULTIMATE	new
+Spire.str	IDS_DemoPurchase_Title_VIPEdition	FORZA HORIZON 2 DELUXE EDITION	FORZA HORIZON 2 — ВИДАННЯ DELUXE	new
+Spire.str	IDS_Demo_Bullet_1_DayOneDeluxeEdition	Ten Year Anniversary Car Pack	Ten Year Anniversary Car Pack	keep
+Spire.str	IDS_Demo_Bullet_1_DayOneEdition	Ten Year Anniversary Car Pack	Ten Year Anniversary Car Pack	keep
+Spire.str	IDS_Demo_Bullet_1_DayOneUltimateEdition	Ten Year Anniversary Car Pack	Ten Year Anniversary Car Pack	keep
+Spire.str	IDS_Demo_Bullet_2_DayOneDeluxeEdition	VIP	VIP	keep
+Spire.str	IDS_Demo_Bullet_2_DayOneUltimateEdition	VIP	VIP	keep
+Spire.str	IDS_Demo_Bullet_3_DayOneUltimateEdition	Car Pass	Car Pass	fh2
+Spire.str	IDS_Demo_Includes_DayOneDeluxeEdition	Full Forza Horizon 2 game	Повна гра Forza Horizon 2	new
+Spire.str	IDS_Demo_Includes_DayOneEdition	Full Forza Horizon 2 game	Повна гра Forza Horizon 2	new
+Spire.str	IDS_Demo_Includes_DayOneUltimateEdition	Full Forza Horizon 2 game	Повна гра Forza Horizon 2	new
+Spire.str	IDS_Demo_Purchase_Includes	INCLUDES:	ВКЛЮЧАЄ:	new
+Spire.str	IDS_DiscountBoards_CollectedAll_Subtitle	PLEASE CHECK THE FORZA HUB TOMORROW FOR YOUR REWARD CAR!	ЗАВТРА ЗАЗИРНІТЬ У FORZA HUB ПО СВОЄ НАГОРОДНЕ АВТО!	new
+Spire.str	IDS_DiscountBoards_CollectedAll_Title	ALL BOARDS SMASHED!	УСІ ДОШКИ РОЗБИТО!	new
+Spire.str	IDS_Drive_To_First_Race_Instruction	GET TO THE STREET RACE!	ЇДЬТЕ НА ВУЛИЧНУ ГОНКУ!	new
+Spire.str	IDS_Drive_To_First_Race_Main	GET TO THE STREET RACE!	ЇДЬТЕ НА ВУЛИЧНУ ГОНКУ!	new
+Spire.str	IDS_Drive_To_Garage_Instruction	DRIVE TO THE GARAGE	ЇДЬТЕ ДО ГАРАЖУ	new
+Spire.str	IDS_Drive_To_Garage_Main	DRIVE TO THE GARAGE	ЇДЬТЕ ДО ГАРАЖУ	new
+Spire.str	IDS_Drive_To_Nice_Instruction	GET TO THE STREET RACE!	ЇДЬТЕ НА ВУЛИЧНУ ГОНКУ!	new
+Spire.str	IDS_Drive_To_Nice_Main	GET TO THE STREET RACE!	ЇДЬТЕ НА ВУЛИЧНУ ГОНКУ!	new
+Spire.str	IDS_First_Introduction_Instruction	Meet Ashley in Nice!	Зустріньтеся з Ешлі в Ніцці!	new
+Spire.str	IDS_First_Introduction_Main	MEET ASHLEY IN NICE!	ЗУСТРІНЬТЕСЯ З ЕШЛІ В НІЦЦІ!	new
+Spire.str	IDS_Garage_CarsAcquired	CARS ACQUIRED	ЗДОБУТО АВТО	new
+Spire.str	IDS_Garage_GetInCarConfirm_Msg	Get in this car and leave the Garage?	Сісти в це авто й виїхати з гаражу?	new
+Spire.str	IDS_Garage_Leave_Msg	Do you want to leave the Garage?	Бажаєте покинути гараж?	new
+Spire.str	IDS_Garage_Leave_Title	EXIT GARAGE	ВИЙТИ З ГАРАЖУ	new
+Spire.str	IDS_Garage_Loading	Loading Garage	Завантаження гаражу	new
+Spire.str	IDS_HUD_Time	Time:	Час:	new
+Spire.str	IDS_HeadToHead_Challenge_Target	DRIVE CLOSELY BEHIND THE {0}	ТРИМАЙТЕСЯ ВПРИТУЛ ЗА {0}	new
+Spire.str	IDS_HeadToHead_Enter_Area	ENTER THE HIGHLIGHTED AREA	ЗАЇДЬТЕ В ПІДСВІЧЕНУ ЗОНУ	new
+Spire.str	IDS_HeadToHead_Explore_Area	EXPLORE THE AREA TO FIND THE {0}	ДОСЛІДЖУЙТЕ МІСЦЕВІСТЬ, ЩОБ ЗНАЙТИ {0}	new
+Spire.str	IDS_HubReminder_Msg	You can visit the Forza Hub app at any time by selecting Forza Hub from the pause menu.	Відкрити застосунок Forza Hub можна будь-коли, вибравши Forza Hub у меню паузи.	new
+Spire.str	IDS_HubReminder_Title	FORZA HUB	ЦЕНТР FORZA	fh2
+Spire.str	IDS_HubReward_HelpButton_LaunchApp	Launch Forza Hub App	Запустити застосунок Forza Hub	new
+Spire.str	IDS_HubReward_HelpButton_ReturnToGame	Return to Game	Повернутися до гри	new
+Spire.str	IDS_HubReward_Msg	You've been awarded a new car. Visit the Forza Hub app to redeem your reward now.	Вам присуджено нове авто. Відкрийте застосунок Forza Hub, щоб забрати нагороду.	new
+Spire.str	IDS_HubReward_Title	FORZA HUB: REWARD AVAILABLE	FORZA HUB: ДОСТУПНА НАГОРОДА	new
+Spire.str	IDS_MaintainSpeed_HUD_Instruction	Maintain a speed of {0} for {1} seconds	Тримайте швидкість {0} протягом {1} с	new
+Spire.str	IDS_MaintainSpeed_Line1	MAINTAIN YOUR SPEED	ТРИМАЙТЕ ШВИДКІСТЬ	new
+Spire.str	IDS_MaintainSpeed_Line2	DRIVE AT LEAST {0} FOR {1} SECONDS	ЇДЬТЕ ЗІ ШВИДКІСТЮ НЕ МЕНШЕ {0} ПРОТЯГОМ {1} С	new
+Spire.str	IDS_MaintainSpeed_Notification	MAINTAIN YOUR SPEED	ТРИМАЙТЕ ШВИДКІСТЬ	new
+Spire.str	IDS_MaintainSpeed_ObjectiveShort	MAINTAIN YOUR SPEED	ТРИМАЙТЕ ШВИДКІСТЬ	new
+Spire.str	IDS_MaintainSpeed_Remaining	[Remaining:{0}]	[Залишилось:{0}]	new
+Spire.str	IDS_Map_Instruction_SetRouteToArea	SET A ROUTE TO THE AREA	ПРОКЛАСТИ МАРШРУТ ДО МІСЦЯ	new
+Spire.str	IDS_Map_Instruction_SetRouteToEventLeft	MOVE THE CURSOR OVER THE EVENT ICON AND PRESS	НАВЕДІТЬ КУРСОР НА ЗНАЧОК ПОДІЇ ТА НАТИСНІТЬ	new
+Spire.str	IDS_Map_Instruction_SetRouteToEventRight	TO SET A ROUTE TO IT	, ЩОБ ПРОКЛАСТИ ТУДИ МАРШРУТ	new
+Spire.str	IDS_Mission_ChangeCar_Challenge_Title	THIS CHALLENGE REQUIRES A DIFFERENT CAR	ДЛЯ ЦЬОГО ВИКЛИКУ ПОТРІБНЕ ІНШЕ АВТО	new
+Spire.str	IDS_Mission_ChangeCar_Event_Title	THIS EVENT REQUIRES A DIFFERENT CAR	ДЛЯ ЦІЄЇ ПОДІЇ ПОТРІБНЕ ІНШЕ АВТО	new
+Spire.str	IDS_Mission_ChangeCar_Message	Get in the {0}?	Сісти в {0}?	new
+Spire.str	IDS_Missions_Fast_Travel_To_Garage	Fast Travel to Garage	Швидка подорож до гаражу	new
+Spire.str	IDS_Missions_MissionName_PartFormat	{0}: PART {1}	{0}: ЧАСТИНА {1}	new
+Spire.str	IDS_Missions_Return_To_Garage_Instruction	RETURN TO THE GARAGE	ПОВЕРНІТЬСЯ ДО ГАРАЖУ	new
+Spire.str	IDS_Missions_Return_To_Garage_Main	RETURN TO THE GARAGE	ПОВЕРНІТЬСЯ ДО ГАРАЖУ	new
+Spire.str	IDS_Missions_Search_For_Barn_Find_Instruction	EXPLORE THE AREA TO LOCATE THE BARN FIND	ДОСЛІДЖУЙТЕ МІСЦЕВІСТЬ, ЩОБ ЗНАЙТИ АВТО В САРАЇ	new
+Spire.str	IDS_PauseMenu_BuyNowMotorsportTile_Title	FORZA MOTORSPORT 5	FORZA MOTORSPORT 5	keep
+Spire.str	IDS_PauseMenu_BuyNowTile_Description	BUY NOW	КУПИТИ ЗАРАЗ	new
+Spire.str	IDS_PauseMenu_BuyNowTile_Title	FORZA HORIZON 2	FORZA HORIZON 2	fh2
+Spire.str	IDS_PauseMenu_TileTitle_EventRivals	RIVALS EVENTS	ПОДІЇ СУПЕРНИКІВ	new
+Spire.str	IDS_PauseMenu_TileTitle_MissionProgress	CARS ACQUIRED	ЗДОБУТО АВТО	new
+Spire.str	IDS_PostRace_ProveYourself	PROVE YOURSELF	ПОКАЖІТЬ, НА ЩО ЗДАТНІ	new
+Spire.str	IDS_PostRace_YouFinished	YOU FINISHED {0}	ВИ ФІНІШУВАЛИ {0}	new
+Spire.str	IDS_PostRace_YouHaveAcquiredThe	YOU HAVE ACQUIRED THE	ВИ ЗДОБУЛИ	new
+Spire.str	IDS_PreRaceDifficultyPopup_Msg	You can change your difficulty settings at any time from the Pre-race menu or through the Settings tile on the Pause menu.	Налаштування складності можна змінити будь-коли в меню перед гонкою або в розділі налаштувань меню паузи.	new
+Spire.str	IDS_PreRaceDifficultyPopup_Title	PLAY YOUR WAY	ГРАЙТЕ ПО-СВОЄМУ	new
+Spire.str	IDS_RaceTargetLabel	TARGET	ЦІЛЬ	fh2
+Spire.str	IDS_RadioOn	Radio On	Радіо увімкнено	new
+Spire.str	IDS_Results_MaintainSpeed_Fail	YOU WEREN'T FAST ENOUGH	НЕДОСТАТНЬО ШВИДКО	new
+Spire.str	IDS_Results_MaintainSpeed_Win	YOU NAILED IT	ВІДМІННО ВИКОНАНО	fh2
+Spire.str	IDS_Stat_ProgressToCompletion	CAREER COMPLETION	ПРОГРЕС КАР’ЄРИ	new
+Storefront.str	IDS_ERROR_GENERIC	There was an error communicating with the Forza Horizon 2 Presents Fast & Furious server. Please try again later.	Помилка з’єднання з сервером Forza Horizon 2 Presents Fast & Furious. Спробуйте пізніше.	fh2-edit
+TheIsland.str	IDS_PostRace_Island_YouveWonA	YOU'VE WON THE	ВИ ВИГРАЛИ	fh2-edit
+TimeTrial.str	IDS_Generic_Server_Error	There was an error communicating with the Forza Horizon 2 Presents Fast & Furious server. Please try again later.	Помилка зв’язку з сервером Forza Horizon 2 Presents Fast & Furious. Спробуйте ще раз пізніше.	fh2-edit
+Tracks.str	IDS_Description_1000	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1001	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1002	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1004	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1005	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1006	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1007	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1008	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1009	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1010	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1011	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_1012	Race from the harbor to the foothills of Nice in this fun Street Race.	Мчи від гавані до передгір’я Ніцци в цій веселій вуличній гонці.	fh2
+Tracks.str	IDS_Description_1013	A drag race on the Airfield in Saint-Martin	Драг-рейсинг на аеродромі в Saint-Martin	new
+Tracks.str	IDS_Description_1548	A dramatic race against a cargo plane from Nice Masséna to the Airfield.	Драматична гонка проти вантажного літака від площі Масена в Ніцці до аеродрому.	new
+Tracks.str	IDS_Description_551	Track route that races from its start line all the way to its finish	Маршрут траси від старту до фінішу	fh2
+Tracks.str	IDS_Description_904	Saint-Martin: the perfect setting for a race against an attack chopper.	Saint-Martin — ідеальна обстановка для гонки проти бойового гелікоптера.	new
+Tracks.str	IDS_DisplayName_1000	Nice Docks Arena Small	Ніцца: Доки — Арена S	fh2
+Tracks.str	IDS_DisplayName_1001	Nice Docks Arena Large	Ніцца: Доки — Арена L	fh2
+Tracks.str	IDS_DisplayName_1002	Nice Docks Arena Huge	Ніцца: Доки — Велика арена	fh2
+Tracks.str	IDS_DisplayName_1003	Nice Docks Arena Medium	Ніцца: Доки — Арена M	fh2
+Tracks.str	IDS_DisplayName_1004	Saint-Martin Aérodrome Arena Huge	Saint-Martin: Аеродром — Велика арена	fh2
+Tracks.str	IDS_DisplayName_1005	Saint-Martin Aérodrome Arena Small	Saint-Martin: Аеродром — Арена S	fh2
+Tracks.str	IDS_DisplayName_1006	Saint-Martin Aérodrome Arena Large	Saint-Martin: Аеродром — Арена L	fh2
+Tracks.str	IDS_DisplayName_1007	Saint-Martin Aérodrome Arena Medium	Saint-Martin: Аеродром — Арена M	fh2
+Tracks.str	IDS_DisplayName_1008	Saint-Martin Le Prince Arena Huge	Saint-Martin: Le Prince — Велика арена	new
+Tracks.str	IDS_DisplayName_1009	Saint-Martin Le Prince Arena Small	Saint-Martin: Le Prince — Арена S	new
+Tracks.str	IDS_DisplayName_1010	Saint-Martin Le Prince Arena Medium	Saint-Martin: Le Prince — Арена M	new
+Tracks.str	IDS_DisplayName_1011	Saint-Martin Le Prince Arena Large	Saint-Martin: Le Prince — Арена L	new
+Tracks.str	IDS_DisplayName_1012	Nice Street Race	Ніцца: Вуличні перегони	new
+Tracks.str	IDS_DisplayName_1013	Airfield Drag Race	Драг-рейсинг на аеродромі	new
+Tracks.str	IDS_DisplayName_1548	Special Delivery	Спецдоставка	new
+Tracks.str	IDS_DisplayName_551	Spire	Шпиль	new
+Tracks.str	IDS_DisplayName_904	Airstrike	Авіаудар	new
+Tracks.str	IDS_ShortDisplayNameAllCaps_1000	DOCKS ARENA SMALL	ДОКИ: АРЕНА S	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1001	DOCKS ARENA LARGE	ДОКИ: АРЕНА L	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1002	DOCKS ARENA HUGE	ДОКИ: ВЕЛИКА АРЕНА	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1003	DOCKS ARENA MEDIUM	ДОКИ: АРЕНА M	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1004	AÉRODROME ARENA HUGE	АЕРОДРОМ: ВЕЛИКА АРЕНА	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1005	AÉRODROME ARENA SMALL	АЕРОДРОМ: АРЕНА S	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1006	AÉRODROME ARENA LARGE	АЕРОДРОМ: АРЕНА L	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1007	AÉRODROME ARENA MEDIUM	АЕРОДРОМ: АРЕНА M	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1008	LE PRINCE ARENA HUGE	LE PRINCE: ВЕЛИКА АРЕНА	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1009	LE PRINCE ARENA SMALL	LE PRINCE: АРЕНА S	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1010	LE PRINCE ARENA MEDIUM	LE PRINCE: АРЕНА M	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1011	LE PRINCE ARENA LARGE	LE PRINCE: АРЕНА L	fh2
+Tracks.str	IDS_ShortDisplayNameAllCaps_1012	NICE STREET RACE	НІЦЦА: ВУЛИЧНІ ПЕРЕГОНИ	new
+Tracks.str	IDS_ShortDisplayNameAllCaps_1013	DRAG RACE	ДРАГ-РЕЙСИНГ	new
+Tracks.str	IDS_ShortDisplayNameAllCaps_1548	SPECIAL DELIVERY	СПЕЦДОСТАВКА	new
+Tracks.str	IDS_ShortDisplayNameAllCaps_551	SPIRE	ШПИЛЬ	new
+Tracks.str	IDS_ShortDisplayNameAllCaps_904	AIRSTRIKE	АВІАУДАР	new
+Tracks.str	IDS_ShortDisplayName_1000	Docks Arena Small	Доки: Арена S	fh2
+Tracks.str	IDS_ShortDisplayName_1001	Docks Arena Large	Доки: Арена L	fh2
+Tracks.str	IDS_ShortDisplayName_1002	Docks Arena Huge	Доки: Велика арена	fh2
+Tracks.str	IDS_ShortDisplayName_1003	Docks Arena Medium	Доки: Арена M	fh2
+Tracks.str	IDS_ShortDisplayName_1004	Aérodrome Arena Huge	Аеродром: Велика арена	fh2
+Tracks.str	IDS_ShortDisplayName_1005	Aérodrome Arena Small	Аеродром: Арена S	fh2
+Tracks.str	IDS_ShortDisplayName_1006	Aérodrome Arena Large	Аеродром: Арена L	fh2
+Tracks.str	IDS_ShortDisplayName_1007	Aérodrome Arena Medium	Аеродром: Арена M	fh2
+Tracks.str	IDS_ShortDisplayName_1008	Le Prince Arena Huge	Le Prince: Велика арена	fh2
+Tracks.str	IDS_ShortDisplayName_1009	Le Prince Arena Small	Le Prince: Арена S	fh2
+Tracks.str	IDS_ShortDisplayName_1010	Le Prince Arena Medium	Le Prince: Арена M	fh2
+Tracks.str	IDS_ShortDisplayName_1011	Le Prince Arena Large	Le Prince: Арена L	fh2
+Tracks.str	IDS_ShortDisplayName_1012	Nice Street Race	Ніцца: Вуличні перегони	new
+Tracks.str	IDS_ShortDisplayName_1013	Airfield Drag Race	Драг-рейсинг на аеродромі	new
+Tracks.str	IDS_ShortDisplayName_1548	Special Delivery	Спецдоставка	new
+Tracks.str	IDS_ShortDisplayName_551	Spire	Шпиль	new
+Tracks.str	IDS_ShortDisplayName_904	Airstrike	Авіаудар	new

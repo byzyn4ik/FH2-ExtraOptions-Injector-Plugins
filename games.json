@@ -1,0 +1,23 @@
+{
+  "fh2": {
+    "name": "Forza Horizon 2",
+    "plugins": ["xtra-options", "achievements-fh2", "keyboard-mouse", "performance", "azimuth-settings",
+                "custom-radio", "lang-support", "photo-export", "documents-saves"],
+    "note": "Xtra Options carries XtraFeatures.dll (and with it the Exit Game tile), so the standalone xtra-features and exit-game mods are not in this package: they are for a stock Extra Options."
+  },
+  "fh2ff": {
+    "name": "Forza Horizon 2 Presents Fast & Furious",
+    "plugins": ["xtra-options-ff", "achievements-fh2ff", "keyboard-mouse", "performance", "exit-game", "azimuth-settings", "xtra-features", "custom-radio",
+                "lang-support", "photo-export", "documents-saves"]
+  },
+  "fm5": {
+    "name": "Forza Motorsport 5",
+    "plugins": ["keyboard-mouse", "performance"],
+    "note": "Generic plugins only: the FPS counter (no Video page row) and Keyboard & Mouse's host-level pad."
+  },
+  "fm6": {
+    "name": "Forza Motorsport 6",
+    "plugins": ["keyboard-mouse", "performance"],
+    "note": "Generic plugins only: the FPS counter (no Video page row) and Keyboard & Mouse's host-level pad."
+  }
+}

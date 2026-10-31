@@ -1,0 +1,13 @@
+{
+  "name": "Skip Intros",
+  "dll": "SkipIntros.dll",
+  "game": "fh2ff",
+  "source": "ported from xtra-options/features/skip-intros by tools/port_feature.py (FH2 1.0.0.64 -> Fast & Furious 1.0.0.6; same bytes at every site)",
+  "groups": {
+    "INTRO": {
+      "section": "Frontend",
+      "key": "SkipIntro",
+      "default": 1
+    }
+  }
+}

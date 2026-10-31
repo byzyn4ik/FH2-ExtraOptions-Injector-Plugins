@@ -1,0 +1,24 @@
+[
+  {
+    "id": "profile_multiplayer_privilege",
+    "runtime_group": "PARENTAL",
+    "rva": 19176528,
+    "original": "48894c2408574883ec30",
+    "accepted": [
+      "48894c2408574883ec30",
+      "c7414404000000c39090"
+    ],
+    "patched": "c7414404000000c39090"
+  },
+  {
+    "id": "profile_content_privilege",
+    "runtime_group": "PARENTAL",
+    "rva": 19177104,
+    "original": "48894c2408574883ec30",
+    "accepted": [
+      "48894c2408574883ec30",
+      "c7414804000000c39090"
+    ],
+    "patched": "c7414804000000c39090"
+  }
+]

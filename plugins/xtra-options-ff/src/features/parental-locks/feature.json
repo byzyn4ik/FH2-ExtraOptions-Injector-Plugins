@@ -1,0 +1,13 @@
+{
+  "name": "Parental Locks",
+  "dll": "ParentalLocks.dll",
+  "game": "fh2ff",
+  "source": "ported from xtra-options/features/parental-locks by tools/port_feature.py (FH2 1.0.0.64 -> Fast & Furious 1.0.0.6; same bytes at every site)",
+  "groups": {
+    "PARENTAL": {
+      "section": "Compatibility",
+      "key": "DisableParentalLocks",
+      "default": 1
+    }
+  }
+}

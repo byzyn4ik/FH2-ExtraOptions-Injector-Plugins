@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "openbox-achievements-fh2ff",
+  "name": "OpenBox Achievements (Fast & Furious)",
+  "author": "Max (byzyn4ik)",
+  "version": "0.1.0",
+  "description": "Forza Horizon 2 Presents Fast & Furious achievements for the OpenBox Achievements app: the plugin evaluates the Fast & Furious achievement rules in game and sends unlocks and progress to OpenBox.",
+  "games": ["fh2ff"],
+  "dependencies": []
+}

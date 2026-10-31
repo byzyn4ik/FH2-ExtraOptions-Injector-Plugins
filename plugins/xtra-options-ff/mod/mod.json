@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "xtra-options-fh2ff",
+  "name": "Xtra Options (Fast & Furious)",
+  "author": "Max (byzyn4ik)",
+  "version": "0.1.0",
+  "description": "Forza Horizon 2 Extra Options features that also work in Forza Horizon 2 Presents Fast & Furious, one forza_injector plugin DLL each: skip the opening videos, free photo mode camera, local content privilege checks.",
+  "games": ["fh2ff"],
+  "dependencies": []
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "treasure_map_mainland_property",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 4258976,
+    "original": "0fb64179c3cc",
+    "accepted": [
+      "0fb64179c3cc"
+    ],
+    "patched": "0fb64179c3cc"
+  },
+  {
+    "id": "treasure_map_callback_slot_padding",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 4258982,
+    "original": "cccc",
+    "accepted": [
+      "cccc"
+    ],
+    "patched": "cccc"
+  },
+  {
+    "id": "treasure_map_true_getter",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 8938624,
+    "original": "b001c3cc",
+    "accepted": [
+      "b001c3cc"
+    ],
+    "patched": "b001c3cc"
+  },
+  {
+    "id": "treasure_map_barn_marker_reveal",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 4272726,
+    "original": "746d",
+    "accepted": [
+      "746d",
+      "9090"
+    ],
+    "patched": "9090"
+  },
+  {
+    "id": "treasure_map_board_discover_entry",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 5293680,
+    "original": "488bc45557415441564157488d68a14881ece000000048c74507feffffff4889",
+    "accepted": [
+      "488bc45557415441564157488d68a14881ece000000048c74507feffffff4889"
+    ],
+    "patched": "488bc45557415441564157488d68a14881ece000000048c74507feffffff4889"
+  },
+  {
+    "id": "treasure_map_board_setup_entry",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 5337808,
+    "original": "488bc4554154415541564157488da838feffff4881eca002000048c74520feff",
+    "accepted": [
+      "488bc4554154415541564157488da838feffff4881eca002000048c74520feff"
+    ],
+    "patched": "488bc4554154415541564157488da838feffff4881eca002000048c74520feff"
+  },
+  {
+    "id": "treasure_map_board_setup_binding",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 5265089,
+    "original": "488d05081c0100",
+    "accepted": [
+      "488d05081c0100",
+      "488b05e0a5f0ff"
+    ],
+    "patched": "488b05e0a5f0ff"
+  },
+  {
+    "id": "treasure_map_mainland_property_binding",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 11098506,
+    "original": "4c8d050fa397ff",
+    "accepted": [
+      "4c8d050fa397ff",
+      "4c8d05ef0adfff"
+    ],
+    "patched": "4c8d05ef0adfff"
+  },
+  {
+    "id": "treasure_map_island_property_binding",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 11098535,
+    "original": "4c8d057289be00",
+    "accepted": [
+      "4c8d057289be00",
+      "4c8d05d20adfff"
+    ],
+    "patched": "4c8d05d20adfff"
+  },
+  {
+    "id": "treasure_map_island_property",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 23585568,
+    "original": "0fb64178c3cc",
+    "accepted": [
+      "0fb64178c3cc"
+    ],
+    "patched": "0fb64178c3cc"
+  }
+]

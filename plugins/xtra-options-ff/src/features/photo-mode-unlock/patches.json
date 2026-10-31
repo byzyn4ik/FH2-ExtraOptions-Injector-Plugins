@@ -1,0 +1,13 @@
+[
+  {
+    "id": "photo_mode_unlocked_flag",
+    "runtime_group": "PHOTO_UNLOCK",
+    "rva": 10121829,
+    "original": "0fb6783d",
+    "accepted": [
+      "0fb6783d",
+      "40b70190"
+    ],
+    "patched": "40b70190"
+  }
+]

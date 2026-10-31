@@ -1,0 +1,244 @@
+[
+  {
+    "id": "ownership_predicate",
+    "runtime_group": "DLC",
+    "rva": 10217659,
+    "original": "400fb6c7",
+    "accepted": [
+      "400fb6c7",
+      "33c0b001"
+    ],
+    "patched": "33c0b001"
+  },
+  {
+    "id": "active_entitlement_predicate",
+    "runtime_group": "DLC",
+    "rva": 10218603,
+    "original": "400fb6c7",
+    "accepted": [
+      "400fb6c7",
+      "33c0b001"
+    ],
+    "patched": "33c0b001"
+  },
+  {
+    "id": "catalog_purchased",
+    "runtime_group": "DLC",
+    "rva": 31471509,
+    "original": "30",
+    "accepted": [
+      "30",
+      "31"
+    ],
+    "patched": "31"
+  },
+  {
+    "id": "main_values_vip",
+    "runtime_group": "VIP",
+    "rva": 2748428,
+    "original": "e8effffdff",
+    "accepted": [
+      "e8effffdff",
+      "b801000000"
+    ],
+    "patched": "b801000000"
+  },
+  {
+    "id": "local_vip_profile",
+    "runtime_group": "VIP",
+    "rva": 3114254,
+    "original": "410fb6e80fb6f2",
+    "accepted": [
+      "410fb6e80fb6f2",
+      "40b50140b60190"
+    ],
+    "patched": "40b50140b60190"
+  },
+  {
+    "id": "loaded_profile_vip",
+    "runtime_group": "VIP",
+    "rva": 3302816,
+    "original": "e84b8cd500",
+    "accepted": [
+      "e84b8cd500",
+      "b801000000"
+    ],
+    "patched": "b801000000"
+  },
+  {
+    "id": "reward_context_vip",
+    "runtime_group": "VIP",
+    "rva": 6368954,
+    "original": "e831c3a600",
+    "accepted": [
+      "e831c3a600",
+      "b801000000"
+    ],
+    "patched": "b801000000"
+  },
+  {
+    "id": "wheelspin_display_vip",
+    "runtime_group": "VIP",
+    "rva": 7244416,
+    "original": "e86b679900",
+    "accepted": [
+      "e86b679900",
+      "b801000000"
+    ],
+    "patched": "b801000000"
+  },
+  {
+    "id": "wheelspin_claim_vip",
+    "runtime_group": "VIP",
+    "rva": 7246165,
+    "original": "e896609900",
+    "accepted": [
+      "e896609900",
+      "b801000000"
+    ],
+    "patched": "b801000000"
+  },
+  {
+    "id": "alternate_claim_vip",
+    "runtime_group": "VIP",
+    "rva": 7296215,
+    "original": "e8149d9800",
+    "accepted": [
+      "e8149d9800",
+      "b801000000"
+    ],
+    "patched": "b801000000"
+  },
+  {
+    "id": "storm_island_car_availability",
+    "runtime_group": "ISLAND_CARS",
+    "rva": 11546473,
+    "original": "e8022ff6ff",
+    "accepted": [
+      "e8022ff6ff",
+      "eb2a909090"
+    ],
+    "patched": "eb2a909090"
+  },
+  {
+    "id": "storm_island_purchase_gate",
+    "runtime_group": "ISLAND_CARS",
+    "rva": 13291209,
+    "original": "e8a28fdbff",
+    "accepted": [
+      "e8a28fdbff",
+      "eb33909090"
+    ],
+    "patched": "eb33909090"
+  },
+  {
+    "id": "treasure_map_mainland_property",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 4204784,
+    "original": "0fb64179c3cc",
+    "accepted": [
+      "0fb64179c3cc",
+      "b801000000c3"
+    ],
+    "patched": "0fb64179c3cc"
+  },
+  {
+    "id": "treasure_map_barn_marker_reveal",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 4218502,
+    "original": "746d",
+    "accepted": [
+      "746d",
+      "9090"
+    ],
+    "patched": "9090"
+  },
+  {
+    "id": "treasure_map_board_setup_binding",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 5199729,
+    "original": "488d0548600100",
+    "accepted": [
+      "488d0548600100",
+      "488b0580d1f0ff"
+    ],
+    "patched": "488b0580d1f0ff"
+  },
+  {
+    "id": "treasure_map_mainland_property_binding",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 10873306,
+    "original": "4c8d050f3f9aff",
+    "accepted": [
+      "4c8d050f3f9aff",
+      "4c8d05bf13dfff"
+    ],
+    "patched": "4c8d05bf13dfff"
+  },
+  {
+    "id": "treasure_map_island_property_binding",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 10873335,
+    "original": "4c8d056286bf00",
+    "accepted": [
+      "4c8d056286bf00",
+      "4c8d05a213dfff"
+    ],
+    "patched": "4c8d05a213dfff"
+  },
+  {
+    "id": "treasure_map_island_map_check",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 14101940,
+    "original": "0fb64378",
+    "accepted": [
+      "0fb64378",
+      "31c0ffc0"
+    ],
+    "patched": "31c0ffc0"
+  },
+  {
+    "id": "treasure_map_mainland_map_check",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 14101946,
+    "original": "0fb64379",
+    "accepted": [
+      "0fb64379",
+      "31c0ffc0"
+    ],
+    "patched": "31c0ffc0"
+  },
+  {
+    "id": "treasure_map_extras_catalog",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 14123994,
+    "original": "e83187d8ff",
+    "accepted": [
+      "e83187d8ff",
+      "b001909090"
+    ],
+    "patched": "b001909090"
+  },
+  {
+    "id": "treasure_map_extras_entry",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 14409104,
+    "original": "e87b2dd4ff",
+    "accepted": [
+      "e87b2dd4ff",
+      "b001909090"
+    ],
+    "patched": "b001909090"
+  },
+  {
+    "id": "treasure_map_island_property",
+    "runtime_group": "TREASURE_MAP",
+    "rva": 23425120,
+    "original": "0fb64178c3cc",
+    "accepted": [
+      "0fb64178c3cc",
+      "b801000000c3"
+    ],
+    "patched": "0fb64178c3cc"
+  }
+]

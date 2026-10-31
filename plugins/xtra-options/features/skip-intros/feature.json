@@ -1,0 +1,13 @@
+{
+  "name": "Skip Intros",
+  "dll": "SkipIntros.dll",
+  "game": "fh2",
+  "source": "forza-injector core/patches.json (Extra Options 0.4.4 d66c85d)",
+  "groups": {
+    "INTRO": {
+      "section": "Frontend",
+      "key": "SkipIntro",
+      "default": 1
+    }
+  }
+}

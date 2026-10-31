@@ -1,0 +1,21 @@
+{
+  "name": "Aero Tuning",
+  "dll": "AeroTuning.dll",
+  "game": "fh2",
+  "source": "forza-injector core/patches.json (Extra Options 0.4.4 d66c85d)",
+  "groups": {
+    "AERO_TUNING": {
+      "section": "Experiments",
+      "key": "UnlockAeroTuning",
+      "default": 0
+    }
+  },
+  "code": [
+    "aero_tuning.c"
+  ],
+  "hooks": [
+    "front_aero_tuning_ranges",
+    "rear_aero_tuning_ranges"
+  ],
+  "tests": ["tests/aero_tuning_test.c"]
+}

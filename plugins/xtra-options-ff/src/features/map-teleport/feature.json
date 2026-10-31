@@ -1,0 +1,22 @@
+{
+  "name": "Map Teleport",
+  "dll": "MapTeleport.dll",
+  "game": "fh2ff",
+  "native": true,
+  "context": true,
+  "source": "Fast & Furious only: holding X (or Y) on the world map travels to the map cursor with the game's own fast travel to a position (FastTravelModule 0x561d90, cost 0), in free roam; the patches are guards (each site's bytes are checked, nothing in them changes), the code swaps two vtable slots (MapScene's update, the button's closure invoke)",
+  "groups": {
+    "MAP_TELEPORT": {
+      "section": "Map",
+      "key": "Teleport",
+      "default": 1
+    }
+  },
+  "code": [
+    "map_teleport.c",
+    "map_teleport_logic.c"
+  ],
+  "tests": [
+    "test_map_teleport_logic.c"
+  ]
+}

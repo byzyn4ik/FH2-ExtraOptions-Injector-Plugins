@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "xtra-features",
+  "name": "Xtra Features",
+  "author": "Max (byzyn4ik)",
+  "version": "0.0.2",
+  "description": "Pause map zoom-out beyond the game's limit, sharper garage thumbnails (F8 re-renders them), a photo mode car scan (RB credits the cars in view to the photo collection), an Exit Game tile on the pause menu and a WORLD tile (time of day and weather; also on Fast & Furious).",
+  "games": ["fh2", "fh2ff"],
+  "dependencies": []
+}
