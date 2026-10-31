@@ -205,6 +205,35 @@ static const char *call_ok(const unsigned char *game, unsigned site, unsigned na
     return why;
 }
 
+// Where a jump another module wrote at the start of a game function goes:
+// jmp rel32, jmp qword [rip+d] or mov rax/r11,imm64; jmp rax/r11. NULL when the
+// code is no such jump or it goes into the game itself or to no code.
+static const void *hook_target(const unsigned char *game, const unsigned char *function) {
+    unsigned char code[16];
+    const void *target = NULL;
+    if (!fh2_safe_read(function, code, sizeof(code))) return NULL;
+    if (code[0] == 0xe9) {
+        int32_t displacement;
+        memcpy(&displacement, code + 1, 4);
+        target = function + 5 + displacement;
+    } else if (code[0] == 0xff && code[1] == 0x25) {
+        int32_t displacement;
+        memcpy(&displacement, code + 2, 4);
+        if (!fh2_safe_read(function + 6 + displacement, &target, sizeof(target))) return NULL;
+    } else if (code[0] == 0x48 && code[1] == 0xb8 && code[10] == 0xff && code[11] == 0xe0) {
+        memcpy(&target, code + 2, sizeof(target));
+    } else if (code[0] == 0x49 && code[1] == 0xbb && code[10] == 0x41 && code[11] == 0xff && code[12] == 0xe3) {
+        memcpy(&target, code + 2, sizeof(target));
+    }
+    return target && !in_image(game, target) && fh2_is_code(target) ? target : NULL;
+}
+
+// Game functions another mod may hook at their start (FH2: Extra Options'
+// Weather Control hooks the time-of-day tick): the World menu only calls
+// through them, so their own code or such a hook will do.
+static int may_be_hooked(unsigned site) { return site == S_TIME_TICK; }
+static int time_tick_hooked;
+
 const char *world_menu_check(const unsigned char *game, uint32_t size, char *why, size_t why_size) {
     build = find_build(game, size);
     if (!build) {
@@ -214,6 +243,10 @@ const char *world_menu_check(const unsigned char *game, uint32_t size, char *why
     for (unsigned i = 0; i < ARRAY_COUNT(site_code); ++i) {
         const SiteCode *code = &site_code[i];
         if (!fh2_bytes_equal(game + rva(code->site), code->bytes, code->length)) {
+            if (may_be_hooked(code->site) && hook_target(game, game + rva(code->site))) {
+                time_tick_hooked = 1;
+                continue;
+            }
             snprintf(why, why_size, "the game's %s at 0x%x is not as inspected", code->name, (unsigned)rva(code->site));
             return why;
         }
@@ -982,6 +1015,10 @@ int world_menu_install(unsigned char *game, const wchar_t *ini) {
     }
     say("WorldMenu: %s: WORLD tile in the Settings hub; time of day %ld, weather %ld from the INI.", build->name,
         (long)wanted[ROW_TIME], (long)wanted[ROW_WEATHER]);
+    if (time_tick_hooked)
+        say("WorldMenu: the time-of-day tick 0x%x is hooked by another mod (e.g. Extra Options' Weather Control); "
+            "the World menu calls through its hook, and the last one to set the time or weather wins.",
+            (unsigned)rva(S_TIME_TICK));
     return 1;
 }
 

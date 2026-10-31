@@ -876,6 +876,7 @@ WORLD_GAMES = (
     ("Fast & Furious", Path(r"D:\Games\Forza Horizon 2 Presents Fast & Furious\game\base\Mount"), 0x3A89000,
      "Forza Horizon 2 Presents Fast & Furious 1.0.0.6"),
 )
+WORLD_TIME_TICK = {"Forza Horizon 2": 0x197B170, "Fast & Furious": 0x19A4140}
 
 
 def test_world_menu(dll):
@@ -917,6 +918,21 @@ def test_world_menu(dll):
             check(found == name.encode(), f"{label}: every World menu site as inspected ({found})")
             check(b"not a supported build" in dll.XtraTestWorldCheck(base, size - 0x1000),
                   f"{label}: another image size is refused")
+            # Another mod's hook at the time-of-day tick's start (FH2: Extra Options'
+            # Weather Control): jmp qword [rip+0] to code outside the game is accepted,
+            # a jump back into the game or other bytes are not.
+            tick = base + WORLD_TIME_TICK[label]
+            saved = ctypes.string_at(tick, 16)
+            outside = ctypes.cast(dll.XtraTestWorldCheck, ctypes.c_void_p).value
+            for target, expected, what in ((outside, True, "a hook to another module is accepted"),
+                                           (base + 0x1000, False, "a jump into the game itself is refused")):
+                ctypes.memmove(tick, b"\xff\x25\x00\x00\x00\x00" + struct.pack("<Q", target), 14)
+                found = dll.XtraTestWorldCheck(base, size)
+                check((found == name.encode()) == expected, f"{label}: time-of-day tick hooked: {what} ({found})")
+            ctypes.memmove(tick, b"\xcc" * 11, 11)
+            check(b"time-of-day tick" in dll.XtraTestWorldCheck(base, size),
+                  f"{label}: other bytes at the time-of-day tick are refused")
+            ctypes.memmove(tick, saved, 16)
         finally:
             unmap(base)
         if not ui.is_file():
